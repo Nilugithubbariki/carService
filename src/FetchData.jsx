@@ -77,12 +77,8 @@ const FetchData = () => {
           })
           .map((item) => {
             return (
-              <div>
-                <img
-                  style={{ width: "200px", height: "200px" }}
-                  src={item.images[0]}
-                  alt=""
-                />
+              <div className="ProductStyle">
+                <img className="imageStyle" src={item.images[0]} alt="" />
                 <div style={{ textAlign: "center" }}>{item.brand}</div>
                 <div style={{ textAlign: "center" }}>{item.price}</div>
               </div>

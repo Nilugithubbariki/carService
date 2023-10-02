@@ -59,6 +59,10 @@
   justify-content: space-between;
   margin: 25px;
 }
+.imageStyle {
+  width: 200px;
+  height: 200px;
+}
 .inputStyle {
   margin: 25px;
 }
@@ -93,8 +97,19 @@
     width: 100%;
   }
   .productContainer {
-    width: 339px;
+    /* width: 339px;
     height: 304px;
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+    width: 100%;
+  }
+  .ProductStyle {
+    width: 347px;
+    margin: 11px;
+  }
+  .imageStyle {
+    width: 345px;
+    height: 277px;
   }
 }
