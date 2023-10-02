@@ -1,78 +1,90 @@
 import React from "react";
-import "../components/Navbar.css";
-const Navbar = () => {
+
+import "bootstrap/dist/css/bootstrap.min.css";
+function Navbar() {
   return (
-    <div className="mainStyle">
-      <div className="backgroundImageStyle">
-        <div className="mainContainer">
-          <div className="leftSideContainer">
-            <div className="headerStyle">
-              <img src="/src/assets/pexels.jpg" alt="logo" />
-              <h1 style={{ color: "white" }}>Car Service</h1>
-            </div>
-            <div>
-              <select name="" id="">
-                <option value="hyderbad">Hyderbad</option>
-                <option value="new Delhi">New Delhi</option>
-                <option value="mumbai">Mumbai</option>
-                <option value="agra">Agra</option>
-              </select>
-            </div>
-          </div>
-          <div className="rightSideContainer">
-            <ul className="listStyle">
-              <li>Spares</li>
-              <li>Blog</li>
-              <li>More</li>
-              <li>Login</li>
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            Navbar
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Link
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">
+                  Disabled
+                </a>
+              </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
         </div>
-        <div className="secondContainer">
-          <div className="leftContainerStyle">
-            <h2>Experience The Best Car Service In Hydrabd</h2>
-            <p>We Provide Our Services In Over 100+ Major Cites also.</p>
-            <br />
-            <br />
-            <br />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, iure.
-            Aliquid aliquam qui voluptatibus, error excepturi laborum. Nihil
-            ipsam iure laborum totam dolorum laboriosam sit aut voluptatem
-            repellat laudantium id veniam, nostrum quaerat! Ducimus sunt totam
-            a. Nostrum enim, ullam corrupti, nobis est ipsa quaerat deserunt
-            molestiae ut itaque adipisci consequuntur.
-          </div>
-          <div className="rightContainterStyle">
-            <div className="boxStyle">
-              <h3>Book your Car Servie Now!</h3>
-              <p>Get instant quotes for your car service</p>
-              <select name="" id="" style={{ width: "165px" }}>
-                <option value=""></option>
-              </select>
-              <br />
-              <input type="text" placeholder="Enter your Mobile Number" />
-              <br />
-              <button className="buttonStyle">Check Pricess For Free</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="upperStyle">
-        <ul className="ListStyle">
-          <li>Our Services</li>
-          <li>Curated Custom Service</li>
-          <li>How Car Service Service?</li>
-          <li>Rating & Reviews</li>
-          <li>Price</li>
-        </ul>
-        <h2 style={{ margin: "25px" }}>Car Services Available in Hyderabad</h2>
-        <p style={{ width: "659px", margin: "25px" }}>
-          Get hassle-free and proffesional car service, car repair, wheel car
-          service, cashless insurance claim and much more in hyderabad
-        </p>
-      </div>
+      </nav>
     </div>
   );
-};
+}
 
 export default Navbar;

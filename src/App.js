@@ -35,7 +35,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="ProductContainerStyle">
+      {/* <div className="ProductContainerStyle">
         <input type="text" placeholder="Search Here..." onChange={changeName} />
         <br />
         <button onClick={ascending}>Ascending</button>
@@ -53,7 +53,7 @@ const App = () => {
             })
             .map((item) => {
               return (
-                <div>
+                <div className="box">
                   <img
                     src={item.images[0]}
                     alt=""
@@ -65,7 +65,7 @@ const App = () => {
               );
             })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
