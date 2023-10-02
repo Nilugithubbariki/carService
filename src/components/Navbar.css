@@ -45,7 +45,7 @@
   gap: 25px;
   list-style: none;
   cursor: pointer;
-  height: 40px;
+  /* height: 40px; */
   align-items: center;
 }
 /* .WrapperContainer {
@@ -130,7 +130,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 11px;
-  background: #9e9999;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
