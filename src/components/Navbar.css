@@ -29,8 +29,6 @@
 }
 .logoStyle {
   background-image: url("/src/assets/download.jpeg");
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
 }
 .borderStyle {
   border-radius: 11px;
@@ -45,87 +43,13 @@
   gap: 25px;
   list-style: none;
   cursor: pointer;
-  /* height: 40px; */
   align-items: center;
 }
-/* .WrapperContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
-/* .leftSideContainer {
-  display: flex;
-}
-.mainContainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 11px;
-}
-.headerStyle {
-  display: flex;
-}
-.backgroundImageStyle {
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.listStyle {
-  display: flex;
-  gap: 21px;
-  list-style: none;
+[type="button"]:not(:disabled),
+.button:not(:disabled) {
   cursor: pointer;
-  color: white;
-}
-.boxStyle {
   background: white;
-  height: 255px;
-  width: 173px;
-  border-radius: 10px;
-  line-height: 36px;
-  margin: 30px;
-  padding: 10px;
 }
-.secondContainer {
-  display: flex;
-  justify-content: space-between;
-}
-.buttonStyle {
-  background: #111121;
-  border: none;
-  border-radius: 5px;
-  padding: 3px;
-  color: white;
-  width: 167px;
-}
-.mainStyle {
-  height: 1000px;
-}
-.ListStyle {
-  display: flex;
-  gap: -28px;
-  list-style: none;
-  cursor: pointer;
-  margin: 25px;
-  padding: 7px;
-  border-radius: 11px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  width: 61%;
-  gap: 45px;
-}
-.ListStyle:hover {
-  text-decoration: underline;
-}
-.contentStyle {
-  margin: 11px;
-}
-.leftContainerStyle {
-  color: white;
-  padding: 11px;
-  line-height: 30px;
-}
-.upperStyle {
-  line-height: 30px;
-} */
 .productContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
