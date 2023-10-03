@@ -18,8 +18,9 @@
   display: flex;
 }
 .selectStyle {
-  height: 17px;
+  eight: 39px;
   border: none;
+  border-radius: 5px;
 }
 .star-svg {
   fill: white;
@@ -75,7 +76,6 @@
   margin-top: -284px;
 }
 .box {
-  width: calc(33.33%-20px);
   margin-bottom: 20px;
   background-color: white;
   padding: 20px;
